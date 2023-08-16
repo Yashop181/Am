@@ -769,10 +769,25 @@ ul li a
     color: black;
     text-decoration: none;
 }
+@media (max-width :666px)
+{
+    .medi a
+    {
+        font-size: 20px;
+    }
+}
 .medi i 
 
 {
     margin-left: 20px;
+}
+@media (max-width :666px)
+{
+    .medi i 
+
+{
+    margin-left: 0px;
+}
 }
 .bike
 {
@@ -812,6 +827,23 @@ ul li a
 .ride a:hover
 {
     text-decoration: none;
+}
+@media (max-width :666px)
+{
+    .ride
+    {
+        margin-left: 0px;
+        
+    }
+    .ride a
+    {
+        margin-left: 0px;
+        font-size: 19px;
+    }
+    .ride p
+    {
+        font-size: 19px;
+    }
 }
 .engine
 {
@@ -961,6 +993,11 @@ ul li a
     {
         margin-left: 10px;
     }
+    .ne a 
+    {
+        font-size: 19px;
+    }
+
 }
 
 .ne a:hover
@@ -973,6 +1010,14 @@ ul li a
 .ne i 
 {
     margin-left: 20px;
+}
+@media (max-width :666px)
+{
+    .ne i 
+    {
+        margin-left: 0px;
+    }
+
 }
 /* About Projects Ending */
 
@@ -1260,8 +1305,17 @@ ul li a
     font-size: 20px;
 }
 }
-
-.foott
+.ftrr
+{
+    display: flex;
+    justify-content: center;
+}
+.foot
+{
+    display: flex;
+    justify-content: center;
+}
+/* .foott
 {
     padding: 50px;
     background-color: #E1FDFF;
@@ -1270,9 +1324,8 @@ ul li a
 {
     .foott
     {
-        display: flex;
-        justify-content: center;
-        margin-left: 0px;
+        margin-left: -70px;
+        
     }
 }
 .ftrr
@@ -1280,11 +1333,27 @@ ul li a
     display: flex;
     justify-content: center;
 }
-
+@media (max-width :666px)
+{
+    .ftrr
+    {
+        padding: 30px;
+    }
+}
 .foot
 {
     display: flex;
     justify-content: center;
+}
+@media (max-width :666px)
+{
+    .foot
+    {
+        display: flex;
+        font-size: 20px;
+      margin-top: 0px;
+
+    }
 }
 .foot a
 {
@@ -1293,6 +1362,6 @@ ul li a
 .foot a:hover
 {
     color: black;
-}
+} */
 /* Footer Ending */
 
