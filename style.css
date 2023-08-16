@@ -1,0 +1,1280 @@
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar Start */
+.mouss
+{
+    background-image: url('anil-kumar-SXigdcQPbd8-unsplash.jpg');
+    background-size: cover;
+    border-radius: 10px 10px 10px;
+}
+.coat 
+{
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.coat li 
+{
+    position: relative;
+}
+
+.dropdown-menu 
+{
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    background-image: linear-gradient(to right top, #dd1b16, #e6092e, #ee0043, #f30057, #f6006b, #f8006b, #f9006b, #fb006b, #fb0055, #f8003f, #f30026, #eb0000);
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+}
+
+.coat li:hover .dropdown-menu 
+{
+    display: block;
+}
+
+.dropdown-menu li 
+{
+    display: inline-block;
+    width: 100%; 
+    text-align: left;
+}
+li
+{
+    font-size: 18px;
+}
+
+ul li
+{
+    margin-bottom: 20px;
+    width: 15%;
+    padding: 20px;
+
+}
+ul li a
+{
+    text-decoration: none;
+}
+.kenn
+{
+    border: 2px solid #E1FDFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+.kenn:hover
+{
+    border-color: blue;
+}
+@media (min-width: 667px) {
+    .menu-toggle-label,
+    .menu-toggle-checkbox {
+        display: none;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 666px) {
+    .mouss
+{
+    background-image: url('anil-kumar-SXigdcQPbd8-unsplash.jpg');
+    background-size: cover;
+}
+
+.chain
+{
+    margin-top: 125px;
+}
+    .mouss
+    {
+        height: 600px;
+    }
+    .kenn
+    {
+        display: flex;
+
+    }
+    ul.coat {
+        display: none;
+        position: absolute;
+        top: 50px; /* Adjust as needed */
+        right: 0; /* Adjust to position on the right side */
+        background-color: white;
+        border: 1px solid #ccc;
+        width: 100%;
+        z-index: 1;
+    }
+
+    ul.coat.active {
+        display: block;
+    }
+
+    ul.coat > li {
+        margin: 10px 0;
+    }
+
+    ul.coat > li > a {
+        padding: 10px;
+    }
+
+    .menu-toggle-label {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .menu-toggle-label i {
+        font-size: 20px;
+    }
+
+    .menu-toggle-checkbox {
+        display: none;
+    }
+
+    .menu-toggle-checkbox:checked ~ ul.coat {
+        display: block;
+    }
+
+    @media (max-width: 333px) {
+        ul.coat li.dropdown ul.dropdown-menu li a i {
+            display: none;
+        }
+        
+        ul.coat li.dropdown ul.dropdown-menu {
+            display: block;
+            position: static;
+            background-color: transparent;
+            border: none;
+            width: auto;
+        }
+        
+        ul.coat li.dropdown ul.dropdown-menu li {
+            margin: 10px 0;
+        }
+    }
+}
+/* Navbar Ending */
+
+/* main start */
+.ffr
+{
+    color: #13A5E2;
+}
+
+.fatu
+{
+    border: 1px solid hsl(198, 91%, 71%);
+    padding: 10px;
+    color: #13A5E2;
+}
+
+.chain h1
+{
+    margin-left: 160px;
+    font-size: 70px;
+}
+@media (max-width: 666px) 
+{
+    .chain h1
+    {
+        margin-left: 0px;
+        font-size: 28px;
+    }
+}
+.pgr p
+{
+    margin-left: 160px;
+    font-size: 30px;
+}
+@media (max-width: 666px) 
+{
+    .pgr p
+    {
+        margin-left: 0px;
+        font-size: 17px;
+    }
+}
+.lern a
+{
+    margin-left: 160px;
+    font-size: 22px;
+    color: #13A5E2;
+}
+@media (max-width: 666px) 
+{
+    .lern a
+    {
+        margin-left: 0px;
+        font-size: 19px;
+    }
+
+}
+.lern i
+{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.lern a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+/* main Ending */
+
+/* Brands Starts */
+.bnds i
+{
+    margin-right: 15px;
+}
+.bnds p
+{
+    margin-left: 110px;
+    font-size: 22px;
+}
+@media (max-width: 666px) 
+{
+    .bnds p
+    {
+        margin-left: 0px;
+    }
+}
+.dibba
+{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 65px;
+}
+@media (max-width: 666px) 
+{
+    .dibba
+    {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+.fir 
+{
+    border: 1px solid transparent; 
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+.fir:hover 
+{
+    border-color: blue; 
+}
+.fir img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fir:hover img 
+{
+    transform: scale(1.1); 
+}
+.fir
+{
+    margin-left: 40px;
+    border: 2px solid whitesmoke;
+    width: 70%;
+    padding: 28px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+@media (max-width: 666px) 
+{
+    .fir
+    {
+        margin-left: -60px;
+        width: 100%;
+    }
+}
+.fir i 
+{
+    margin-right: 10px;
+}
+.fir a
+{
+    text-decoration: none;
+
+}
+
+/* Brands Ending */
+
+/* Small Box Starts  */
+.aas
+{
+    font-size: 40px;
+    margin-left: 160px;
+    color: red;
+}
+@media (max-width :666px)
+{
+    .aas h1
+    {
+        margin-left: -140px;
+        font-size: 34px;    
+    }
+}
+.bea 
+{
+    font-size: 30px;
+    margin-left: 160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bea a
+{
+    font-size: 22px;
+    color: red;
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+    
+}
+@media (max-width :666px)
+{
+
+    .bea a
+    {
+        display: grid;
+        font-size: 22px;
+        margin-left: -80px;
+    }
+}
+
+.eeco
+{
+    background-image: url('hassaan-here-G8bzQnNZv0M-unsplash.jpg');
+    background-size: cover;
+}
+/* Small Box Ending */
+
+/* Company Details start */
+.wire 
+{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.wire div
+{
+    border: 2px solid #08C2D3;
+    padding: 50px;
+    
+    margin-bottom: 20px;
+    width: 70%;
+    
+}
+.direc p
+{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.take p 
+{
+    margin-left: 110px;
+    font-size: 25px;
+}
+.surv p 
+{
+    margin-left: 110px;
+    font-size: 25px;
+}
+.remin p 
+{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.dont p 
+{
+    margin-left: 80px;
+    font-size: 25px;
+}
+.quick p 
+{
+    margin-left: 110px;
+    font-size: 25px;
+}
+@media (max-width :666px)
+{
+    .wire
+    {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .take p 
+    {
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    .surv p 
+    {
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    .quick p 
+    {
+        margin-left: 70px;
+        font-size: 25px;
+    }
+}
+
+/* Company Details Ending */
+
+/* Companies name start */
+.comp
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #08C2D3;
+}
+.names
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bolder;
+}
+@media (max-width :666px)
+{
+    .names
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 17px;
+    }
+}
+.namet
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bolder;
+}
+@media (max-width :666px)
+{
+    .namet
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 17px;
+    }
+}
+/* Companies name Ending */
+
+/* Company career start */
+.boot h1
+{
+    font-size: 64px;
+    margin-left: 140px;
+}
+@media (max-width :666px)
+{
+    .boot h1
+    {
+        margin-left: 20px;
+        font-size: 26px;
+    }
+}
+.differ 
+{
+    display: flex;
+    align-items: center; 
+}
+@media (max-width :666px)
+{
+    .differ
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.purg 
+{
+    flex: 1; 
+    padding: 20px; 
+    margin-left: 140px;
+}
+
+.purg p 
+{
+    font-size: 27px;
+}
+.purg h1
+{
+    font-size: 70px;
+}
+@media (max-width :666px)
+{
+    .purg h1
+    {
+        font-size: 40px;
+    }
+}
+.purg a:hover
+{
+    color: black;
+    text-decoration: none;
+
+}
+
+@media (max-width :666px)
+{
+
+    .purg
+    {
+        margin-left: 0px;
+    }
+    .purg p 
+    {
+        margin-left: 0px;
+        font-size: 23px;
+    }
+}
+.imu 
+{
+    flex: 1; 
+    text-align: right;
+    padding: 20px; 
+}
+@media (max-width :666px)
+{
+
+    .imu img
+    {
+        width: 330px;
+    }
+}
+
+
+.clay
+{
+    background-color: #E1FDFF; 
+}
+.bgcc
+{
+    background-color: #E1FDFF;
+}
+.collec
+{
+    display: flex;
+    align-items: center;
+    background-color: #E1FDFF;
+}
+@media (max-width :666px)
+{
+    .collec
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mic img 
+    {
+
+        width: 300px;
+    }
+}
+.viv
+{
+    flex: 1; 
+    padding: 20px; 
+    margin-left: 140px;
+}
+.viv h1
+{
+    font-size: 70px;
+}
+@media (max-width :666px)
+{
+    .viv h1
+    {
+        margin-left: -130px;
+        font-size: 35px;
+    }
+}
+.viv p
+{
+    font-size: 27px;
+}
+@media (max-width :666px)
+{
+    .viv p
+    {
+        margin-left: -130px;
+        font-size: 23px;
+    }
+    .viv a
+    {
+        margin-left: -40px;
+    }
+}
+
+
+.viv a:hover
+{
+    color: black;
+    text-decoration: none;
+
+}
+.mic
+{
+    flex: 1; 
+    text-align: right; 
+    padding: 20px;
+}
+.differ
+{
+    background-color: #E1FDFF;
+}
+/* Company career Ending */
+
+/* Join us Start  */
+.puffer
+{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+    width: 80%;
+    margin-left: 110px;
+    padding-top: 30px;
+    background-image: url('hassaan-here-G8bzQnNZv0M-unsplash.jpg');
+    background-size: cover;
+    padding: 30px;
+    
+}
+@media (max-width :666px)
+{
+    .puffer
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+}
+.asus p 
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+@media (max-width :666px)
+{
+    .asus h1
+    {
+        font-size: 29px;
+    }
+}
+@media (max-width :666px)
+{
+    .asus p
+    {
+        font-size: 17px;
+    }
+}
+.asus a
+{
+    border: 1px solid #0f8ada;
+    padding: 15px;
+    background-color: #E1FDFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+@media (max-width :666px)
+{
+    .asus a
+    {
+       
+        font-size: 17px;
+    }
+}
+.asus i
+{
+    margin-left: 20px;
+}
+.sports
+{
+    background-color: #E1FDFF;
+}
+
+/* Join us Ending */
+
+/* Location Start */
+.medi
+{
+    margin-left: 120px;
+}
+.medi h1
+{
+    font-size: 60px;
+}
+@media (max-width :666px)
+{
+    .medi 
+    {
+        margin-left: 10px;
+    }
+    .medi h1
+    {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+}
+.medi p 
+{
+    font-size: 28px;
+}
+.medi a
+{
+    font-size: 25px;
+}
+.medi a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+.medi i 
+
+{
+    margin-left: 20px;
+}
+.bike
+{
+    display: flex;
+    align-items: center; 
+}
+@media (max-width :666px)
+{
+    .bike 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.ride
+{
+    flex: 1;
+    padding: 20px; 
+    margin-left: 100px;
+}
+@media (max-width :666px)
+{
+    .ride
+    {
+        margin-left: 10px;
+    }
+    .ride .org
+    {
+        display: none;
+    }
+
+}
+.ride h2
+{
+    font-size: 30px;
+}
+.ride a:hover
+{
+    text-decoration: none;
+}
+.engine
+{
+    flex: 1; 
+    text-align: right; 
+    padding: 50px;
+}
+.engine img
+{
+    border-radius: 50px 50px 50px 50px;
+}
+@media (max-width :666px)
+{
+    .engine
+    {
+        margin-left: 10px;
+    }
+    .engine img
+    {
+        margin-left: -70px;
+        width: 290px;
+        height: 300px;
+    }
+}
+.org
+{
+    width: 50%;
+    margin-left: 0px;
+}
+/* Location Ending */
+
+/* Company Moto Start */
+.food
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+}
+@media (max-width :666px)
+{
+    .food
+    {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.pun
+{
+    
+    padding: 20px;
+    width: 70%;
+    border: 1px solid black;
+}
+.pun p
+{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.pun a 
+{
+    text-decoration: none;
+    font-size: 22px;
+}
+@media (max-width :666px)
+{
+    .pun 
+    {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .pun img
+    {
+        margin-left: -90px;
+    }
+}
+.pun 
+{
+    border: 1px solid wheat; 
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.pun:hover 
+{
+    border-color: blue; 
+}
+/* Company Moto Ending */
+
+/* About Projects Start */
+.wi
+{
+    margin-left: 120px;
+}
+@media (max-width :666px)
+{
+    .wi 
+    {
+        margin-left: 10px;
+    }
+    .wi h1 
+    {
+        
+        font-size: 20px;
+    } 
+}
+.re
+{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width :666px)
+{
+    .re
+    {
+        margin-left: 10px;
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+.re a
+{
+    color: black;
+}
+.re a
+{
+    text-decoration: none;
+    font-size: 18px;
+}
+.re a:hover
+{
+    color: #00b7fb;
+}
+.ne
+{
+    margin-left: 120px;
+}
+.ne a
+{
+    color: #00b7fb;
+    font-size: 19px;
+}
+@media (max-width :666px)
+{
+    .ne
+    {
+        margin-left: 10px;
+    }
+}
+
+.ne a:hover
+{
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.ne i 
+{
+    margin-left: 20px;
+}
+/* About Projects Ending */
+
+/* Investors Start */
+.mall
+{
+    background-color: #E1FDFF; 
+}
+.bask
+{
+    margin-left: 120px;
+}
+.bask h1
+{
+    font-size: 70px;
+}
+@media (max-width :666px)
+{
+    .bask 
+    {
+        margin-left: 10px;
+    }
+    .bask h1
+    {
+        font-size: 40px;
+    } 
+}
+.bask p
+{
+    font-size: 30px;
+}
+@media (max-width :666px)
+{
+    .bask p 
+    {
+        font-size: 20px;
+    }
+}
+.bask a 
+{
+    font-size: 22px;
+    border: 1px solid #00B4FF;
+    border-radius: 5px 5px 5px 5px;
+    background-image: linear-gradient(to right top, #1bbfef, #0fbdf2, #02bbf5, #00b9f8, #00b7fb, #0ab6fb, #13b5fb, #19b4fb, #23b4f8, #2cb4f5, #33b4f3, #39b4f0);
+    padding: 9px;
+    text-decoration: none;
+}
+.bask a:hover
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bask i 
+{
+    margin-left: 20px;
+}
+.ff
+{
+    margin-left: 120px;
+    font-size: 20px;
+}
+@media (max-width :666px)
+{
+    .ff
+    {
+        margin-left: 10px;
+    }
+}
+.pall
+{
+    background-color: #E1FDFF; 
+    padding: 60px;
+}
+.cha
+{
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width :666px)
+{
+    .cha
+    {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.cha a
+{
+    text-decoration: none;
+}
+.super img 
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+.super:hover img 
+{
+    transform: scale(1.1);
+}
+.baj
+{
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-evenly;
+    
+}
+@media (max-width :666px)
+{
+    .baj 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+}
+.baj a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+/* Investors Ending */
+
+/* Two Boxes Start */
+.parle
+{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dot
+{
+    border: 3px solid whitesmoke;
+    width: 40%;
+    padding-bottom: 40px;
+    background-image: url('aperture-vintage-zKGRPtg1pn8-unsplash.jpg');
+    background-size: cover;
+}
+@media (max-width :666px)
+{
+    .parle
+    {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .dot
+    {
+        
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.dot a
+{
+    text-decoration: none;
+}
+.dot i 
+{
+    margin-left: 20px;
+}
+.dot a:hover
+{
+    color: #00b7fb;
+}
+/* Two Boxes Ending */
+
+/* Three Box Start */
+.seco
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+@media (max-width :666px)
+{
+    .seco
+    {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 500px;
+    }
+}
+
+
+.seco div
+{
+    margin-right: 100px;
+}
+.seco a
+{
+    text-decoration: none;
+}
+/* Three Box Ending */
+
+/*  Quote Start */
+.abt
+{
+    display: flex;
+    margin-left: 120px;
+}
+@media (max-width :666px)
+{
+    .abt
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+}
+
+.fresh
+{
+    margin-left: 30px;
+}
+.fresh h1
+{
+    font-size: 44px;
+}
+.fresh p
+{
+    font-weight: bold;
+}
+@media (max-width :666px)
+{
+    .fresh
+    {
+        margin-left: 10px;
+    }
+    .fresh h1
+    {
+        font-size: 30px;
+    }
+}
+.ent img
+{
+    border: 5px solid blueviolet;
+}
+.all
+{
+    background-color: #E1FDFF;
+}
+
+/* Quote Ending */
+
+/* Footer Starting */
+.premie 
+{
+    display: flex;
+    margin-left: 120px;
+}
+.premie img
+{
+    border-radius: 50%;
+}
+.premie div
+{
+    margin-right: 260px;
+}
+.premie a
+{
+    text-decoration: none;
+}
+.premie i
+{
+    font-size: 19px;
+}
+.premie i:hover
+{
+    color: #00B4FF;
+}
+@media (max-width :666px)
+{
+    .premie 
+    {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 600px;
+    }
+    .premie p 
+{
+    font-size: 20px;
+}
+}
+
+.foott
+{
+    padding: 50px;
+    background-color: #E1FDFF;
+}
+@media (max-width :666px)
+{
+    .foott
+    {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+}
+.ftrr
+{
+    display: flex;
+    justify-content: center;
+}
+
+.foot
+{
+    display: flex;
+    justify-content: center;
+}
+.foot a
+{
+    text-decoration: none;
+}
+.foot a:hover
+{
+    color: black;
+}
+/* Footer Ending */
+
