@@ -2,7 +2,19 @@ body
 {
     font-family: 'Montserrat', sans-serif;
 }
-
+@media (max-width: 666px) 
+{
+  html, body
+  {
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
 /* Navbar Start */
 .mouss
 {
@@ -84,10 +96,10 @@ ul li a
 /* Responsive Styles */
 @media (max-width: 666px) {
     .mouss
-{
-    background-image: url('anil-kumar-SXigdcQPbd8-unsplash.jpg');
-    background-size: cover;
-}
+    {
+        background-image: url('joel-filipe-Wc8k-KryEPM-unsplash.jpg');
+        background-size: cover;
+    }
 
 .chain
 {
@@ -556,10 +568,15 @@ ul li a
 }
 @media (max-width :666px)
 {
+    .imu
+    {
+        margin-left: -4px;
+    }
 
     .imu img
     {
         width: 330px;
+        height: 340px;
     }
 }
 
@@ -589,7 +606,7 @@ ul li a
     .mic img 
     {
 
-        width: 300px;
+        width: 330px;
     }
 }
 .viv
@@ -623,7 +640,7 @@ ul li a
     }
     .viv a
     {
-        margin-left: -40px;
+        margin-left: -130px;
     }
 }
 
@@ -640,6 +657,7 @@ ul li a
     text-align: right; 
     padding: 20px;
 }
+
 .differ
 {
     background-color: #E1FDFF;
@@ -813,8 +831,8 @@ ul li a
     }
     .engine img
     {
-        margin-left: -70px;
-        width: 290px;
+        margin-left: -50px;
+        width: 330px;
         height: 300px;
     }
 }
