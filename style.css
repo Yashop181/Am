@@ -266,6 +266,16 @@ ul li a
     grid-template-columns: repeat(3, 1fr);
     margin-left: 65px;
 }
+@media (max-width: 1225px) 
+{
+    .dibba
+    {
+       
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
 @media (max-width: 666px) 
 {
     .dibba
@@ -421,6 +431,15 @@ ul li a
     margin-left: 110px;
     font-size: 25px;
 }
+@media (max-width :1269px)
+{
+    .wire
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
 @media (max-width :666px)
 {
     .wire
@@ -456,7 +475,8 @@ ul li a
     justify-content: center;
     font-size: 30px;
     color: #08C2D3;
-}
+} 
+/*
 .names
 {
     display: flex;
@@ -488,7 +508,55 @@ ul li a
         grid-template-columns: repeat(3, 1fr);
         font-size: 17px;
     }
+} */
+.branding-section {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.brand-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brand-item i {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.brand-item p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+
+
+
+
+
 /* Companies name Ending */
 
 /* Company career start */
@@ -876,60 +944,50 @@ ul li a
 /* Location Ending */
 
 /* Company Moto Start */
-.food
-{
+
+.food {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 120px;
-}
-@media (max-width :666px)
-{
-    .food
-    {
-        margin-left: 10px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-.pun
-{
-    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
-    width: 70%;
-    border: 1px solid black;
-}
-.pun p
-{
-    margin-left: 70px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-.pun a 
-{
-    text-decoration: none;
-    font-size: 22px;
-}
-@media (max-width :666px)
-{
-    .pun 
-    {
-        margin-bottom: 10px;
-        width: 80%;
-    }
-    .pun img
-    {
-        margin-left: -90px;
-    }
-}
-.pun 
-{
-    border: 1px solid wheat; 
-    transition: border-color 0.3s ease-in-out; 
+    background-color: #f5f5f5;
 }
 
-.pun:hover 
-{
-    border-color: blue; 
+.pun {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.pun:hover {
+    transform: translateY(-10px);
+}
+
+.pun img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    display: block; /* Ensure images are treated as block elements */
+    margin: 0 auto; /* Center the image */
+    object-fit: contain; /* Ensures the image fits within the container */
+}
+
+.pun p {
+    padding: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pun a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 /* Company Moto Ending */
 
@@ -1266,10 +1324,9 @@ ul li a
 /* Quote Ending */
 
 /* Footer Starting */
-.premie 
+/* .premie 
 {
     display: flex;
-    margin-left: 120px;
 }
 .premie img
 {
@@ -1277,7 +1334,7 @@ ul li a
 }
 .premie div
 {
-    margin-right: 260px;
+ 
 }
 .premie a
 {
@@ -1304,7 +1361,69 @@ ul li a
 {
     font-size: 20px;
 }
+} */
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-link {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #1da1f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
 .ftrr
 {
     display: flex;
